@@ -1,5 +1,5 @@
 FROM java:7
-COPY JavaApp.java .
+COPY Javapp.java .
 RUN javac Javaapp.java
 
 CMD ["java", "Javaapp"] 
